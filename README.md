@@ -1,31 +1,8 @@
 # Ikukoimonogatari
-//Chapter.CSです//
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+![gazou](./seisaku.png "サンプル")
+![gazou](./home.png "サンプル")
+乙女ゲーム『戦恋物語』
 
-public class NewBehaviourScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-        if (Input.GetMouseButtonDuwn(0)) {
-            SceneManager.LoadScene();
-        }
-	}
-}
-/// <summary>
-/// Chapter画面を読み込みます///
-/// </summary>
-/// SpiritStory_AkiraKamiya
-public void ChangeScene()
-{
-    SceneManager.LoadScene();
-}
+タイトル画面クリックするとホームに切り替わる。
