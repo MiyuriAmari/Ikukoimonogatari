@@ -20,13 +20,14 @@ public class Chapter : MonoBehaviour
 
 
         }
-        //マウスボタンクリックでキャラの物語画面にとぶ
+        //マウスボタンクリックでキャラの物語画面に切り替わる 
         if (Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene("Chapter_Scenes");
         }
-
+       
+        }
 
     }
-}
+
 

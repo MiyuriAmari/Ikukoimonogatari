@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter_Scenes.unity
     guid: 0b015463c73aa4e948632c037dfa8824
+  - enabled: 1
+    path: Assets/Scenes/BlackWerewolf/AkatukiKuroda_Story.unity
+    guid: 18c50699d6f4f4bf1b64e9aac75584d9
   m_configObjects: {}
