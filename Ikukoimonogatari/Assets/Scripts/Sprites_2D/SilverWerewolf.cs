@@ -3,23 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AkatsukiKuroda : MonoBehaviour {
+public class SilverWerewolf : MonoBehaviour {
 
-    // Use this for initialization
-    void Start(){
-
-    }
-
-    // Update is called once per frame
-    void Update()
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () 
     {
         //マウスボタンクリック
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("AkatukiKuroda_Story");
+            SceneManager.LoadScene("SilverWerewolf_Scenes");
         }
     }
 }
-
-
-
