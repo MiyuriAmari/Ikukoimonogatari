@@ -15,18 +15,18 @@ public class Chapter : MonoBehaviour
     void Update()
     {
 
-        if( Input.GetMouseButtonDown( 0 ) )
+        if (Input.GetKey(KeyCode.Return))
         {
-            SceneManager.LoadScene( 0 );
-        }
-    }
 
-    /// <summary>
-    /// Chapter画面を読み込みます///
-    /// </summary>
-    /// SpiritStory_AkiraKamiya
-    public void ChangeScene()
-    {
-        SceneManager.LoadScene( 0 );
+
+        }
+        //マウスボタンクリックでキャラの物語画面にとぶ
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("Chapter_Scenes");
+        }
+
+
     }
 }
+
