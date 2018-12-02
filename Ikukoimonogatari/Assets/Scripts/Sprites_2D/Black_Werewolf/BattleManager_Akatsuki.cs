@@ -40,16 +40,16 @@ public class BattleManager_Akatsuki : MonoBehaviour
         AkatsukiHP_Slider.value = AKATSUKI_HP;
         EnemyHP_Slider.value = ENEMY_HP;
 #else
-        AkiraHP_Slider.value = (AkiraHP_Slider.value + AKIRA_HP) * 0.5f;
+        AkatsukiHP_Slider.value = (AkatsukiHP_Slider.value + AKATSUKI_HP) * 0.5f;
         EnemyHP_Slider.value = (EnemyHP_Slider.value + ENEMY_HP) * 0.5f;
 #endif
     }
 
     /// <summary>
-    /// アキラにダメージを与える
+    /// 暁にダメージを与える
     /// </summary>
     /// <param name="damage">Damage.</param>
-    public void DamageAkira(int damage)
+    public void DamageAkatsuki(int damage)
     {
         AKATSUKI_HP -= damage;
         AKATSUKI_HP = Mathf.Clamp(AKATSUKI_HP, 0, HP_MAX);

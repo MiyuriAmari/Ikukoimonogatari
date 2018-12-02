@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attack2 : MonoBehaviour
+public class Attack_Akira : MonoBehaviour
 {
     //種類
     public enum Kind
