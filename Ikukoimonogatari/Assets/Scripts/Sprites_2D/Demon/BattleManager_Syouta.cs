@@ -6,7 +6,7 @@ using UnityEngine.UI;
 /// <summary>
 /// バトルマネージャ
 /// </summary>
-public class BattleManager_Akira : MonoBehaviour
+public class BattleManager_Syouta : MonoBehaviour
 {
 
     /// <summary>
@@ -14,22 +14,22 @@ public class BattleManager_Akira : MonoBehaviour
     /// </summary>
     public int HP_MAX = 100;
 
-    [Header("アキラのHP")]
-    public int AKIRA_HP = 100;
+    [Header("ショウタのHP")]
+    public int SYOUTA_HP = 100;
     [Header("敵のHP")]
     public int ENEMY_HP = 100;
 
-    public Slider AkiraHP_Slider;
+    public Slider SyoutaHP_Slider;
     public Slider EnemyHP_Slider;
 
 
     // Use this for initialization
     void Start()
     {
-        AkiraHP_Slider.maxValue = HP_MAX;
+        SyoutaHP_Slider.maxValue = HP_MAX;
         EnemyHP_Slider.maxValue = HP_MAX;
 
-        AKIRA_HP = Mathf.Clamp(AKIRA_HP, 0, HP_MAX);
+        SYOUTA_HP = Mathf.Clamp(SYOUTA_HP, 0, HP_MAX);
         ENEMY_HP = Mathf.Clamp(ENEMY_HP, 0, HP_MAX);
     }
 
@@ -37,22 +37,22 @@ public class BattleManager_Akira : MonoBehaviour
     void Update()
     {
 #if true
-        AkiraHP_Slider.value = AKIRA_HP;
+        SyoutaHP_Slider.value = SYOUTA_HP;
         EnemyHP_Slider.value = ENEMY_HP;
 #else
-        AkiraHP_Slider.value = (AkiraHP_Slider.value + AKIRA_HP) * 0.5f;
+        SyoutaHP_Slider.value = (SyoutaHP_Slider.value + SYOUTA_HP) * 0.5f;
         EnemyHP_Slider.value = (EnemyHP_Slider.value + ENEMY_HP) * 0.5f;
 #endif
     }
 
     /// <summary>
-    /// アキラにダメージを与える
+    /// ショウタにダメージを与える
     /// </summary>
     /// <param name="damage">Damage.</param>
-    public void DamageAkira( int damage )
+    public void DamageAkira(int damage)
     {
-        AKIRA_HP -= damage;
-        AKIRA_HP = Mathf.Clamp(AKIRA_HP, 0, HP_MAX);
+        SYOUTA_HP -= damage;
+        SYOUTA_HP = Mathf.Clamp(SYOUTA_HP, 0, HP_MAX);
     }
 
     /// <summary>
