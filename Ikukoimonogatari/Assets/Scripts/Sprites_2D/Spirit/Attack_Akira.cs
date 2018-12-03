@@ -14,12 +14,12 @@ public class Attack_Akira : MonoBehaviour
     //攻撃対象
     public Kind AttackObject;
 
-    BattleManager manager;
+    BattleManager_Akira manager;
 
 
 	// Use this for initialization
 	void Start () {
-        manager = FindObjectOfType<BattleManager>();
+        manager = FindObjectOfType<BattleManager_Akira>();
 	}
 	
 	// Update is called once per frame

@@ -7,20 +7,20 @@ public class Attack_Kaito : MonoBehaviour
     //種類
     public enum Kind
     {
-        Akatsuki,//海斗
+        Kaito,//海斗
         Enemy,//敵
     };
 
     //攻撃対象
     public Kind AttackObject;
 
-    BattleManager manager;
+    BattleManager_Kaito manager;
 
 
     // Use this for initialization
     void Start()
     {
-        manager = FindObjectOfType<BattleManager>();
+        manager = FindObjectOfType<BattleManager_Kaito>();
     }
 
     // Update is called once per frame
@@ -37,7 +37,7 @@ public class Attack_Kaito : MonoBehaviour
         switch (AttackObject)
         {
             case Kind.Kaito:
-                AttackKaitoi();
+                AttackKaito();
                 break;
 
             case Kind.Enemy:

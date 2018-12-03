@@ -49,7 +49,7 @@ public class BattleManager_Syouta : MonoBehaviour
     /// ショウタにダメージを与える
     /// </summary>
     /// <param name="damage">Damage.</param>
-    public void DamageAkira(int damage)
+    public void DamageSyouta(int damage)
     {
         SYOUTA_HP -= damage;
         SYOUTA_HP = Mathf.Clamp(SYOUTA_HP, 0, HP_MAX);

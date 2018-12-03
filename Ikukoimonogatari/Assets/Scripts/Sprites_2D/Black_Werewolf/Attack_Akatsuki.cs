@@ -14,13 +14,13 @@ public class Attack_Akatsuki : MonoBehaviour
     //攻撃対象
     public Kind AttackObject;
 
-    BattleManager manager;
+    BattleManager_Akatsuki manager;
 
 
     // Use this for initialization
     void Start()
     {
-        manager = FindObjectOfType<BattleManager>();
+        manager = FindObjectOfType<BattleManager_Akatsuki>();
     }
 
     // Update is called once per frame

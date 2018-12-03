@@ -7,20 +7,19 @@ public class Attack_Syouta : MonoBehaviour
     //種類
     public enum Kind
     {
-        Akira,//ショウタ
+        Syouta,//ショウタ
         Enemy,//敵
     };
 
     //攻撃対象
     public Kind AttackObject;
 
-    BattleManager manager;
-
+    BattleManager_Syouta manager;
 
     // Use this for initialization
     void Start()
     {
-        manager = FindObjectOfType<BattleManager>();
+        manager = FindObjectOfType<BattleManager_Syouta>();
     }
 
     // Update is called once per frame
