@@ -517,6 +517,7 @@ GameObject:
   - component: {fileID: 813527768}
   - component: {fileID: 813527769}
   - component: {fileID: 813527770}
+  - component: {fileID: 813527771}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -549,9 +550,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 813527758}
+  - {fileID: 813527709}
   selectedCommands:
-  - {fileID: 813527770}
+  - {fileID: 813527771}
   variables: []
   description: 
   stepPause: 0
@@ -788,6 +789,7 @@ MonoBehaviour:
   - {fileID: 813527757}
   - {fileID: 813527754}
   - {fileID: 813527759}
+  - {fileID: 813527771}
 --- !u!114 &813527710
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2146,7 +2148,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527762
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2172,7 +2174,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527763
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2198,7 +2200,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527764
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2224,7 +2226,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527765
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2250,7 +2252,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527766
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2276,7 +2278,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527767
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2302,7 +2304,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527768
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2328,7 +2330,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527769
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2354,7 +2356,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &813527770
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813527700}
@@ -2378,6 +2380,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &813527771
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813527700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scenes/Spirit/SpiritBattle_Scenes
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &838698526
 GameObject:
   m_ObjectHideFlags: 0

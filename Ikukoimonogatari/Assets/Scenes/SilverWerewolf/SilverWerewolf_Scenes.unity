@@ -271,6 +271,8 @@ GameObject:
   - component: {fileID: 352773295}
   - component: {fileID: 352773298}
   - component: {fileID: 352773299}
+  - component: {fileID: 352773301}
+  - component: {fileID: 352773300}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -631,7 +633,9 @@ MonoBehaviour:
   blockName: Block01
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 352773301}
+  - {fileID: 352773300}
 --- !u!114 &352773297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,6 +704,50 @@ MonoBehaviour:
   storyText: "(\u3048\u3001\u3058\u3083...\u904E\u53BB\u306B\u884C\u3063\u3066\u79C1\u304C\u3053\u306E\u4E16\u754C\u306B\u98DB\u3070\u3055\u308C\u305F\u6642\u306E\u6642\u9593\u307E\u3067\u9061\u308C\u3070....)"
   description: 
   character: {fileID: 930012570}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &352773300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352773282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scenes/SilverWerewolf/SilverWerewolfBattle_Scenes
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &352773301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352773282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -789,9 +837,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 352773310}
+  - {fileID: 352773296}
   selectedCommands:
-  - {fileID: 352773297}
+  - {fileID: 352773300}
   variables: []
   description: 
   stepPause: 0

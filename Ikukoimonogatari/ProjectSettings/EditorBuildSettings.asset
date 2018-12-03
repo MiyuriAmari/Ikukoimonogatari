@@ -17,4 +17,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlackWerewolf/AkatukiKuroda_Story.unity
     guid: 18c50699d6f4f4bf1b64e9aac75584d9
+  - enabled: 1
+    path: Assets/Scenes/Spirit/AkiraKamiya_Story.unity
+    guid: df330f7a9ef094e2a8d067ba638d59cf
+  - enabled: 1
+    path: Assets/Scenes/Later_Scenes/Aru_Story.unity
+    guid: f3aea8dfe85be423599c0a06ae46f897
+  - enabled: 1
+    path: Assets/Scenes/BlackWerewolf/BlackWerewolfBattle_Scenes.unity
+    guid: 2cd7fc2819e2c45e58a7b8e2a747306e
+  - enabled: 1
+    path: Assets/Scenes/Gacha.unity
+    guid: cbb05da76a3b3774495e87b356062427
+  - enabled: 1
+    path: Assets/Scenes/Later_Scenes/Gacha_Scenes.unity
+    guid: a43c1288fa06588459fc1c7f6c61c976
+  - enabled: 1
+    path: Assets/Ikukoimonogatari_2Ddate.unity
+    guid: 7641f2f8ea6b3436eba8d23f5acce5c7
+  - enabled: 1
+    path: Assets/Scenes/Later_Scenes/Reality_Scenes.unity
+    guid: bcf30101d2ead422a8832e309843063a
+  - enabled: 1
+    path: Assets/Scenes/SilverWerewolf/SilverWerewolf_Scenes.unity
+    guid: d969cb0e452524ab78804b8d8c8ac197
+  - enabled: 1
+    path: Assets/Scenes/SilverWerewolf/SilverWerewolfBattle_Scenes.unity
+    guid: 93279efe0522642bbbbad64a4fa1568b
+  - enabled: 1
+    path: Assets/Scenes/Spirit/SpiritBattle_Scenes.unity
+    guid: b024df282f7524c3da71afda1fccef52
+  - enabled: 1
+    path: Assets/Scenes/Demon/SyotaKiryuin_Story.unity
+    guid: 6abe260f7291c4f59a0170487e3e2bef
   m_configObjects: {}
