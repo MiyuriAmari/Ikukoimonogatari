@@ -987,9 +987,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1157992707}
-  selectedCommands:
-  - {fileID: 1157992741}
+  - {fileID: 1157992723}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1832,7 +1831,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1157992739
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157992705}
@@ -1858,7 +1857,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1157992740
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157992705}
@@ -1876,7 +1875,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1157992741
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157992705}
