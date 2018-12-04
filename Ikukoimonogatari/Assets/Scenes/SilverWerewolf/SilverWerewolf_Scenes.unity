@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 352773317}
   - component: {fileID: 352773316}
   - component: {fileID: 352773315}
+  - component: {fileID: 352773319}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -637,7 +638,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 252
-    y: 67
+    y: 68
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -961,8 +962,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 61
-    y: 75
+    x: 60
+    y: 76
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -999,6 +1000,7 @@ MonoBehaviour:
   - {fileID: 352773317}
   - {fileID: 352773316}
   - {fileID: 352773315}
+  - {fileID: 352773319}
   - {fileID: 352773289}
 --- !u!114 &352773311
 MonoBehaviour:
@@ -1027,7 +1029,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 352773310}
   selectedCommands:
-  - {fileID: 352773306}
+  - {fileID: 352773319}
   variables: []
   description: 
   stepPause: 0
@@ -1197,6 +1199,32 @@ MonoBehaviour:
   itemId: 52
   indentLevel: 0
   storyText: "....\u3002\n\u306F\u3063!?"
+  description: 
+  character: {fileID: 67157959}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &352773319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352773282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  storyText: "(\u305D\u3046\u3067\u3059\u304B...\u3002)\n\u9A5A\u3044\u3066\u306A\u3044\u3068\u304B\u8A00\u3044\u3064\u3064\u3001\u5C3B\u5C3E\u304C\u30D4\u30AF\u3063\u3066\u306A\u3063\u305F\u3088\u3046\u306A....\u307E\u3041\u898B\u306A\u304B\u3063\u305F\u4E8B\u306B\u3057\u3088\u3046\u3002"
   description: 
   character: {fileID: 67157959}
   portrait: {fileID: 0}

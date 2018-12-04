@@ -954,6 +954,7 @@ GameObject:
   - component: {fileID: 1157992738}
   - component: {fileID: 1157992739}
   - component: {fileID: 1157992740}
+  - component: {fileID: 1157992741}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -986,8 +987,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1157992723}
-  selectedCommands: []
+  - {fileID: 1157992707}
+  selectedCommands:
+  - {fileID: 1157992741}
   variables: []
   description: 
   stepPause: 0
@@ -1013,8 +1015,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
+    x: 68
+    y: 72
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1024,6 +1026,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1157992708}
   commandList:
+  - {fileID: 1157992741}
   - {fileID: 1157992710}
   - {fileID: 1157992711}
   - {fileID: 1157992712}
@@ -1871,6 +1874,22 @@ MonoBehaviour:
     stringVal: Scenes/BlackWerewolf/BlackWerewolfBattle_Scenes
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1157992741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157992705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 228ee2a1326444469839b3700073a0df, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &1206062518
 GameObject:
   m_ObjectHideFlags: 0
