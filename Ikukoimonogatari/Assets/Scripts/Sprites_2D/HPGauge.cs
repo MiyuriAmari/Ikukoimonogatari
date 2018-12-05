@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HPGauge : MonoBehaviour {
+public class HPGauge: MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
