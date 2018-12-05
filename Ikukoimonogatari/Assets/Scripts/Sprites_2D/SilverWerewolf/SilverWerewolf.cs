@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SilverWerewolf : MonoBehaviour {
+public class SilverWerewolf : MonoBehaviour
+{
 
 	// Use this for initialization
 	void Start () {
