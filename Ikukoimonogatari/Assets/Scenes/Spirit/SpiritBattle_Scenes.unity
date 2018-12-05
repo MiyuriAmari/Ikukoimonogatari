@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 76154146}
   - component: {fileID: 76154147}
+  - component: {fileID: 76154148}
   m_Layer: 5
   m_Name: Spirit_Slider
   m_TagString: Untagged
@@ -198,6 +199,17 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &76154148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76154145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f1bb39345364e189c94b9bc5ce3a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &87658532
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +645,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 586202415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.79, y: -0.26, z: 0}
+  m_LocalPosition: {x: 8.64, y: 6.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 836618114}
@@ -829,6 +841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744601677}
   - component: {fileID: 744601678}
+  - component: {fileID: 744601679}
   m_Layer: 5
   m_Name: Enemy_Slider
   m_TagString: Untagged
@@ -905,6 +918,17 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &744601679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744601676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f1bb39345364e189c94b9bc5ce3a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &767314531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,6 +1118,14 @@ PlayableDirector:
     value: {fileID: 617148456}
   - key: {fileID: 114524470899955192, guid: 3a3ec0fef97d245b498064f34d5968c3, type: 2}
     value: {fileID: 365143262}
+  - key: {fileID: 114123707979128516, guid: 3a3ec0fef97d245b498064f34d5968c3, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 114688247171002208, guid: 3a3ec0fef97d245b498064f34d5968c3, type: 2}
+    value: {fileID: 76154145}
+  - key: {fileID: 114661691390885452, guid: 3a3ec0fef97d245b498064f34d5968c3, type: 2}
+    value: {fileID: 744601676}
   m_ExposedReferences:
     m_References:
     - 44cb18c9f7d8f47d5a153b024a07da76: {fileID: 617148456}
@@ -1267,7 +1299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &947396662
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1617,7 +1649,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1316121705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.55, y: 6.5, z: 0}
+  m_LocalPosition: {x: -6.42, y: -0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 836618114}
@@ -1930,7 +1962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1690145083
 RectTransform:
   m_ObjectHideFlags: 0
