@@ -2115,8 +2115,6 @@ GameObject:
   - component: {fileID: 1206062520}
   - component: {fileID: 1206062519}
   - component: {fileID: 1206062522}
-  - component: {fileID: 1206062524}
-  - component: {fileID: 1206062523}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2279,42 +2277,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &1206062523
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1206062518}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!320 &1206062524
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1206062518}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: b3ff9e10d486f45c5b5f9face05ca4e0, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 114712141326416322, guid: b3ff9e10d486f45c5b5f9face05ca4e0, type: 2}
-    value: {fileID: 1206062523}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &1289843211
 GameObject:
   m_ObjectHideFlags: 0

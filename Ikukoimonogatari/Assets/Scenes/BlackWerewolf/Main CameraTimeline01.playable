@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Name: Main CameraTimeline01
   m_EditorClassIdentifier: 
   m_NextId: 0
-  m_Tracks:
-  - {fileID: 114712141326416322}
+  m_Tracks: []
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
