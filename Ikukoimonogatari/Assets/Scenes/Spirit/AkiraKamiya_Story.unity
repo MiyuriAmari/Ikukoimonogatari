@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 813527777}
   - component: {fileID: 813527775}
   - component: {fileID: 813527779}
+  - component: {fileID: 813527780}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -559,8 +560,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 813527709}
-  selectedCommands:
-  - {fileID: 813527774}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -784,6 +784,7 @@ MonoBehaviour:
   - {fileID: 813527742}
   - {fileID: 813527743}
   - {fileID: 813527744}
+  - {fileID: 813527780}
   - {fileID: 813527752}
   - {fileID: 813527751}
   - {fileID: 813527746}
@@ -2590,6 +2591,22 @@ MonoBehaviour:
   itemId: 78
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 8993d5992137e4bc888444c383d2077d, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &813527780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813527700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  indentLevel: 0
+  soundClip: {fileID: 0}
   volume: 1
   waitUntilFinished: 0
 --- !u!1 &838698526
